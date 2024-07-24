@@ -36,10 +36,10 @@ Follow these steps to setup the environment
 * To train the model on your dataset, you can use the following command:
 
 ```bash
-python run.py  \
+CUDA_VISIBLE_DEVICES=0 python run.py  \
 --expname EXP_NAME \
 --threshold 0.3 \
---gpuid 1 \
+--gpuid 0 \
 --augment_transform 0 \
 --batch_size 512 \
 --pretrain_weight  \ #SSL pretrain weight path
