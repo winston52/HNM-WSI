@@ -59,3 +59,7 @@ CUDA_VISIBLE_DEVICES=0 python run.py  \
 --labelroot xxxx \ # /single
 --comet_api_key xxxxx \
 ```
+
+### Acknowledgements
+
+* This code was developed based on the works of [Its2CLR](https://arxiv.org/abs/2210.09452) and [DSMIL](https://github.com/binli123/dsmil-wsi). We would like to express our gratitude to the authors of these projects for their valuable contributions.
